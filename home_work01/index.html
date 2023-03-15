@@ -7,25 +7,36 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Перелік основних команд, якi потрібно записати:</h1>
+    <h1>Команды для Гита:</h1>
     <ul>
-      <li>git config --global user.name blabla</li>
-      <li>git config --global user.email blabal@bla</li>
-      <li>git add</li>
-      <li>git init</li>
-      <li>git status</li>
-      <li>git commit</li>
-      <li>git log</li>
-      <li>git checkout</li>
-      <li>git branch</li>
-      <li>git push</li>
-      <li>git pull</li>
-      <li>git merge</li>
-      <li>git clone</li>
+      <li>git config --global user.name blabla - Позволяет установить имя пользователя </li>
+      <li>git config --global user.email blabal@bla - Позволяет изменить почту пользователя</li>
+      <li>git add - Позволяет добавить содержимое файла в индекс</li>
+      <li>git init - Позволяет создать скрытую папку которая содержит локальную инфо</li>
+      <li>git status - Позволяет показать статус рабочего дерева и узанать какие файли не были дабавлены</li>
+      <li>git commit -m "....." - Позволяет запись изменения в репозиторий</li>
+      <li>git log - Позволяет показать историю виполненых коммитов</li>
+      <li>git checkout + (название ветки) - Позволяет переходить с ветки на ветку </li>
+      <li>git checkout -b ..... - Позволяет создать новую ветку</li>
+      <li>git branch -M - Позволяет создавать удалять управлять ветками</li>
+      <li>git push - Позволяет отправить изменения в репозиторий </li>
+      <li>git pull - Позволяет перенести всю инфо с сервера  </li>
+      <li>git merge - Позволяет объединяет две или более ветки развития вместе</li>
+      <li>git clone Позволяет загрузить копиию репозитория</li>
     </ul>
     <h3>.gitignore</h3>
-    <p>Нужен для того что бы добавить в него исключения для любого файла что бы он не отправлялся на сервер
-        что бы добавить файл в (.gitignore) нужко добавить имя файла а содержимое (.gitignore) 
+    <p>
+        Нужен для того что бы добавить в него исключения для любого файла что бы
+        он не отправлялся на сервер что бы добавить файл в (.gitignore) нужко
+        добавить имя файла а содержимое (.gitignore)
     </p>
-  </body>
+    <h2>Advanced</h2>
+    <ul>
+      <li>git revert</li>
+      <li>git reset</li>
+      <li>git rebase</li>
+      <li>git cherry-pick</li>
+      <li>git stash</li>
+    </ul>
+</body>
 </html>
