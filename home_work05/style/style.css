@@ -1,1 +1,6 @@
-@
+@import url(./nullStyle.css);
+
+body {
+   background-color: aqua;
+   color: blueviolet;
+}
