@@ -1,0 +1,159 @@
+@import url(./nullStyle.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+/* font-family: 'Rochester',cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;900&display=swap');
+/* font-family: 'Playfair Display',serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+/* font-family: 'Mulish',sans-serif; */
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+
+
+/* - - - -  - - - - - - - - - -  Header - - - - - - - -   - - - - - - - - - - - */
+
+body {
+   background-color: #F5F5F5;
+}
+
+.container {
+   padding: 0px 165px;
+   background-color: #ffffff;
+}
+
+.wrapper {
+   width: 100%;
+   margin: 0 auto;
+}
+
+/* .header {} */
+
+.sub {}
+
+.sub__box {
+   padding: 15px 0px;
+   background: #ffffff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.sub__title {
+   font-family: 'Rochester';
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 41px;
+   color: #1B2437;
+}
+
+.sub__list {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.sub__list_item {
+   cursor: pointer;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.line {
+   height: 1px;
+   width: 100%;
+   background-color: #f4f4f4;
+}
+
+.nav__list {
+   background: #FFFFFF;
+   gap: 80px;
+   padding: 18px 165px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.nav__item:hover {
+   color: #EDA3B5;
+}
+
+.nav__item {
+   font-family: 'Playfair Display';
+   font-weight: 400;
+   font-size: 28px;
+   line-height: 37px;
+   color: #000000;
+}
+
+.nav__item_pink:hover {
+   color: #000000;
+}
+
+.nav__item_pink {
+   color: #EDA3B5;
+}
+
+.decor {
+   margin-top: 6px;
+   margin-left: 12px;
+   width: 34px;
+   height: 3px;
+   background-color: #EDA3B5;
+   border-radius: 2px;
+}
+
+/* - - - - - - - - - - - - - - - - -  Welcome - - - - - - - - - - - - - - - - */
+
+
+.welcome {
+   height: 600px;
+   width: 100%;
+}
+
+.welcome__box {}
+
+.welcome__text {
+   background: url(../img/hero.png)center;
+
+}
+
+.welcome__text h2 {
+   max-width: 361px;
+   font-family: 'Playfair Display';
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 67px;
+   color: #FFFFFF;
+   margin-bottom: 13px;
+}
+
+.welcome__text p {
+   max-width: 450px;
+   font-family: 'Mulish';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 30px;
+   color: #FFFFFF;
+   margin-bottom: 34px;
+}
+
+.welcome__text button {
+   padding: 23px 73px;
+   background: #1B2437;
+   border-radius: 15px;
+   font-family: 'Mulish';
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 30px;
+   color: #FFFFFF;
+}
+
+.welcome__text button:hover {
+   background: #EDA3B5;
+   color: #000000;
+}

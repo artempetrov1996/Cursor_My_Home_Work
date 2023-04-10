@@ -29,18 +29,18 @@ font-family: 'Avenir Next Cyr Heavy',
 sans-serif; */
 
 body {
-   background-color: #f2eeee;
-
+   background: #E5E5E5;
 }
 
 /* .wrapper {} */
 
 .content {
    max-width: 1600px;
-   padding: 20px 220px;
 }
 
-
+.container {
+   padding: 0px 220px;
+}
 
 /* _________________________________________________________Header_________________________________________________________ */
 
@@ -94,8 +94,9 @@ body {
    background: #FFFFFF;
    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
    border-radius: 50px;
-   width: 210px;
-   height: 60px;
+   padding: 17px 30px;
+   /* width: 210px;
+   height: 60px; */
    font-family: 'Avenir';
    font-weight: 800;
    font-size: 16px;
@@ -142,8 +143,9 @@ body {
 }
 
 .section-one__button button {
-   width: 170px;
-   height: 60px;
+   /* width: 170px;
+   height: 60px; */
+   padding: 16px 37px;
    background: #9C69E2;
    border-radius: 50px;
    font-family: 'Avenir';
@@ -237,7 +239,9 @@ body {
 /* _________________________________________________________Section-three_________________________________________________________ */
 
 
-/* .section-three {} */
+.section-three {
+   padding: 0px 220px;
+}
 
 .section-three__flex {
    display: flex;
@@ -317,7 +321,6 @@ body {
    line-height: 160%;
    letter-spacing: 0.005em;
    color: #212353;
-   /* align-self: flex-end; */
 }
 
 .section-three__image {
@@ -426,9 +429,6 @@ body {
 
 .line {
    border: 2px solid #9C69E2;
-   position: relative;
-   width: 1605px;
-   left: -210px;
    opacity: 0.2;
    margin-top: 150px;
    margin-bottom: 100px;
@@ -468,8 +468,7 @@ body {
 
 .block_free__button1 {
    margin-right: 30px;
-   width: 170px;
-   height: 60px;
+   padding: 15px 37px;
    background: #F063B8;
    border-radius: 50px;
    font-family: 'Avenir';
@@ -480,8 +479,7 @@ body {
 }
 
 .block_free__button2 {
-   width: 210px;
-   height: 60px;
+   padding: 17px 69px 17px 50px;
    background: #FFFFFF;
    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
    border-radius: 50px;
@@ -495,7 +493,7 @@ body {
 .block_free__button2_arrow {
    position: relative;
    top: 5px;
-   left: 15px;
+   left: 25px;
 }
 
 
@@ -536,7 +534,9 @@ body {
    margin-bottom: 20px;
 }
 
-.section-five__blok1_text-2 {
+.section-five__blok1_text-2 a {
+   display: flex;
+   display: block;
    font-family: 'Avenir';
    font-weight: 400;
    font-size: 16px;
@@ -556,7 +556,7 @@ body {
    margin-bottom: 30px;
 }
 
-.section-five__blok2_text {
+.section-five__blok2_text a {
    font-family: 'Avenir';
    font-weight: 400;
    font-size: 16px;
@@ -575,7 +575,7 @@ body {
    margin-bottom: 30px;
 }
 
-.section-five__blok3_text {
+.section-five__blok3_text a {
    font-family: 'Avenir';
    font-weight: 400;
    font-size: 16px;
@@ -614,16 +614,8 @@ body {
    color: #212353;
 }
 
+.message-box {}
 
 .message-box {
-   position: sticky;
-   top: 100px;
-}
-
-.message-box_button {
-   border-radius: 50%;
-   width: 60px;
-   height: 60px;
-   background: #9C69E2;
-
+   cursor: pointer;
 }
