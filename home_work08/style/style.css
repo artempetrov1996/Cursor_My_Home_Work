@@ -1,0 +1,67 @@
+@import url(../style/nullStyle.css);
+
+.list-items {
+   width: 100%;
+   margin: 0 auto;
+   padding: 50px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(6, 1fr);
+   gap: 20px;
+
+
+}
+
+.items:nth-child(n+21) {
+   background-color: blue;
+}
+
+
+.items:nth-child(4n+3) {
+   background-color: red;
+}
+
+.items {
+
+   width: 50px;
+   height: 50px;
+   background-color: #666;
+   justify-self: center;
+}
+
+.button {
+   display: block;
+   margin: 0 auto;
+   padding: 20px 60px;
+   width: 500px;
+   background-color: #44D3A8;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+   color: #FFFFFF;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 100px;
+}
+
+.button::after,
+.button::before {
+   position: absolute;
+   content: '';
+   min-width: 200px;
+   height: 12px;
+   border-top: 3px solid #C4C4C4;
+   border-bottom: 3px solid #C4C4C4;
+   margin-top: 1%;
+}
+
+.button::before {
+   margin-left: -350px;
+}
+
+.button::after {
+   margin-left: 150px;
+}
+
+button:hover {
+   background-color: #1b7b5e;
+}
